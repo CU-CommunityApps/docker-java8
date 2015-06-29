@@ -3,7 +3,6 @@
 # Pull base image.
 FROM docker.cucloud.net/base
 
-\
 # Install Java.
 RUN \
   apt-get update && \
