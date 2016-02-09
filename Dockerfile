@@ -1,7 +1,7 @@
-# OpenJDK Java 7 JRE 
+# OpenJDK Java 8 JRE 
 
 # Pull base image.
-FROM docker.cucloud.net/base
+FROM dtr.cucloud.net/cs/base
 
 # Install Java.
 RUN \
