@@ -14,6 +14,9 @@ RUN \
   apt-get install oracle-java8-set-default && \
   rm -rf /var/lib/apt/lists/*
 
+# Define commonly used JAVA_HOME variable
+ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
+
 # Define working directory.
 WORKDIR /data
 
