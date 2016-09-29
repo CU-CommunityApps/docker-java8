@@ -1,5 +1,3 @@
-# OpenJDK Java 8 JRE 
-
 # Pull base image.
 FROM dtr.cucloud.net/cs/base
 
