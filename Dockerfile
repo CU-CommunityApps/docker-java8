@@ -1,5 +1,5 @@
 # Pull base image.
-FROM 078742956215.dkr.ecr.us-east-1.amazonaws.com/kuali/base:latest
+FROM dtr.cucloud.net/cs/base
 
 # Install Java.
 RUN \
